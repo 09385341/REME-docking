@@ -35,7 +35,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/09385341/REME-docking.git
 cd your-repo-name
 
 # 创建环境
