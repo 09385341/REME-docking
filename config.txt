@@ -1,0 +1,20 @@
+# 以#号开头的是代码的注释，程序运行时会跳过不执行
+# 注意，等号两侧不能有空格
+
+# AMDock 的目录（与脚本在同一目录时可直接用相对目录名）
+AMDock_dir=AMDock-win-master
+
+# 小分子配体文件（与脚本同级）
+ligand_pdb=output_with_charges.pdb
+
+# 如需使用其它版本的 Vina，取消下一行注释并填入完整路径
+#vina=D:\Program Files (x86)\The Scripps Research Institute\Vina\vina_1.2.5_win.exe
+
+# Vina 对接参数（可按需调整）
+exhaustiveness=20
+energy_range=100
+num_modes=10
+
+# 以下两项为批量脚本不使用的旧字段（保留注释以供参考）
+#receptor_pdb=A0A1B1WA13_af.pdb
+#box_data=--center_x 0.0 --center_y 0.0 --center_z 0.0 --size_x 11.0 --size_y 11.0 --size_z 11.0
